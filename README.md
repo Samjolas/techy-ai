@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Furniture - GITHUB](https://github.com/Samjolas/furniture)
-- Live Site URL: [Furniture - LIVE](https://samjolas.github.io/furniture)
+- Solution URL: [Techy-ai - GITHUB](https://github.com/Samjolas/techy-ai)
+- Live Site URL: [Techy-ai - LIVE](https://samjolas.github.io/techy-ai)
 
 ## My process
 
