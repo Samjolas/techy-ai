@@ -8,7 +8,8 @@
     text-align: center;
   }
   &__heading {
-    font-size: a.$fs-main;
+    font-size: a.$fs-accent;
+    color: a.$color-main;
     &>* {
       display: block;
     }
@@ -25,7 +26,27 @@
   }
   &__items {
     display: grid;
-    
+    //grid-template-areas: ;
+  }
+  &__list {
+    max-width: 35rem;
+    border-top: .5rem solid red;
+    border-radius: .5rem;
+    display: grid;
+    padding: 3.5rem;
+    gap: 1rem;
+  }
+  &__product {
+    font-size: a.$fs-main;
+    color: a.$color-main;
+    font-weight: a.$fw-600;
+  }
+  &__product-description {
+    font-size: a.$fs-mini;
+    font-weight: a.$fw-400;
+  }
+  &__img {
+    float: right;
   }
   
 }
