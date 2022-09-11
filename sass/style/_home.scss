@@ -1,2 +1,31 @@
 @use 'variables' as a;
 
+.techai {
+  max-width: 111rem;
+  width: calc(100% - 8rem);
+  margin: 0 9rem;
+  &__main {
+    text-align: center;
+  }
+  &__heading {
+    font-size: a.$fs-main;
+    &>* {
+      display: block;
+    }
+    &--sub {
+      font-weight: a.$fw-200;
+    }
+    &--main {
+      font-weight: a.$fw-600;
+    }
+  }
+  &__description {
+    font-size: a.$fs-sub;
+    font-weight: a.$fw-400;
+  }
+  &__items {
+    display: grid;
+    
+  }
+  
+}
