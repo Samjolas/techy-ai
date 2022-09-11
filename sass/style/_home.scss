@@ -26,15 +26,29 @@
   }
   &__items {
     display: grid;
-    //grid-template-areas: ;
   }
   &__list {
     max-width: 35rem;
-    border-top: .5rem solid red;
+    border-top: .5rem solid;
     border-radius: .5rem;
+    background: a.$color-bg-card;
     display: grid;
     padding: 3.5rem;
     gap: 1rem;
+    box-shadow: 0 .25rem .5rem a.$color-main;
+    margin-bottom: 1rem;
+    &--supervisor {
+      border-color: a.$color-supervisor;
+    }
+    &--karma {
+      border-color: a.$color-karma;
+    }
+    &--calculator{
+      border-color: a.$color-calculator;
+    }
+    &--team {
+      border-color: a.$color-team;
+    }
   }
   &__product {
     font-size: a.$fs-main;
@@ -48,5 +62,4 @@
   &__img {
     float: right;
   }
-  
 }
